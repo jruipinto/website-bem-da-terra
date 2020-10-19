@@ -1,0 +1,67 @@
+/*
+* reset font + other initial common styles
+*/
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  line-height: 1.214em;
+}
+html,
+body,
+nav,
+main,
+form,
+header,
+h1,
+h2,
+p,
+input,
+label,
+select,
+option,
+textarea,
+ul,
+ol,
+fieldset,
+legend {
+  background-color: transparent;
+  border: var(--global-border);  
+  box-sizing: border-box;
+  color: var(--global-font-color);
+  font-family: var(--font-family-sans-serif);
+  padding: 0;
+  margin: 0;
+}
+nav,
+form,
+section,
+article,
+footer{
+  padding: calc(var(--global-paragraph-spacing)/2) var(--global-paragraph-spacing);
+}
+
+form,
+header,
+h1,
+h2,
+p,
+label,
+input,
+select,
+option,
+textarea,
+ul,
+ol,
+fieldset,
+legend {
+  margin: 0;
+  padding-bottom: calc(var(--global-paragraph-spacing)*0.7);
+  line-height: 1.2em;
+}
+input,
+select,
+textarea {
+  margin-bottom: calc(var(--global-paragraph-spacing)*0.7);
+}

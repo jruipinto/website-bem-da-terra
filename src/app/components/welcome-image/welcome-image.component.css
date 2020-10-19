@@ -1,0 +1,19 @@
+
+:host {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+svg {
+	width: 80%;
+	float: right;
+}
+
+@media only screen and (min-width: 768px) {
+  :host{
+    margin-bottom: 0;
+  }
+  svg{
+    width: 100%;
+  }
+}

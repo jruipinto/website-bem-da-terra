@@ -1,0 +1,11 @@
+<nav id="navbar">
+	<div id="menu_switch" class="menu-switch" (click)="openMenu()">
+		<button>
+        <app-menu-svg></app-menu-svg>
+        Abrir menu
+    </button>
+	</div>
+	<div id="menu" (click)="closeMenu()">
+		<a *ngFor="let navLink of navList" href={{navLink.href}}>{{navLink.description}}</a>
+	</div>
+</nav>

@@ -1,0 +1,21 @@
+:host {
+  bottom: 5rem;
+  height: 60px;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  width: 60px;
+}
+a {
+  display: none;
+}
+a,
+svg {
+  height: 100%;
+  opacity: 0.4;
+  width: 100%;
+}
+
+svg:hover {
+  opacity: 1;
+}

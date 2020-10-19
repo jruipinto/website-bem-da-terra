@@ -1,0 +1,36 @@
+#welcome_section {
+  display: flex;
+  height: 83vh;
+  align-items: center;
+  padding-top: 0;
+}
+#welcome_section > .flex-container{
+  height: 100%;
+}
+
+#welcome_paragraph {
+  font-family: var(--font-family-sans-serif);
+  font-size: 14px;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+app-button-cta {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+#welcome_section > .flex-container{
+    flex-direction: row-reverse;
+    align-self: center;
+    height: auto;
+  }
+  #welcome_paragraph{
+    align-self: flex-end;
+  }
+  app-button-cta {
+    align-self: flex-end;
+  }
+
+}
