@@ -1,4 +1,5 @@
 <carousel
+  *ngIf="viewInited"
   [images]="images"
   [cellsToShow]="1"
   [loop]="true"
@@ -8,5 +9,6 @@
   [height]="360"
   [transitionDuration]="600"
   [margin]="0"
+  [overflowCellsLimit]="2"
 >
 </carousel>
