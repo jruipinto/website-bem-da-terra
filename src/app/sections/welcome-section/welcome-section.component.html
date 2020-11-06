@@ -1,14 +1,15 @@
 <section id="welcome_section">
-	<div class="flex-container">
-		<div class="col-md-7 flex-end">
-			<app-welcome-image></app-welcome-image>
-		</div>
-		<div class="col-md-5">
-			<p id="welcome_paragraph">
-				O Bem da Terra é um espaço de educação para a sustentabilidade, que cultiva o desenvolvimento integral humano
-				inspirado nos sistemas naturais, possibilitando a (re)ligação do ser humano à Terra.
-			</p>
-			<app-button-cta>Contactar</app-button-cta>
-		</div>
-	</div>
+  <div class="flex-container">
+    <div class="col-md-7 flex-end">
+      <app-welcome-image></app-welcome-image>
+    </div>
+    <div class="col-md-5 flex-center">
+      <p id="welcome_paragraph">
+        O Bem da Terra é um espaço de educação para a sustentabilidade, que
+        cultiva o desenvolvimento integral humano inspirado nos sistemas
+        naturais, possibilitando a (re)ligação do ser humano à Terra.
+      </p>
+      <app-button-cta [href]="'#agenda'">Próximos Eventos</app-button-cta>
+    </div>
+  </div>
 </section>

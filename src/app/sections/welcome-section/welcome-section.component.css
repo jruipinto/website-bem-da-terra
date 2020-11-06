@@ -12,7 +12,6 @@
   font-family: var(--font-family-sans-serif);
   font-size: 14px;
   width: 100%;
-  text-align: left;
   padding-bottom: 2rem;
 }
 
@@ -29,8 +28,8 @@ app-button-cta {
   #welcome_paragraph{
     align-self: flex-end;
   }
-  app-button-cta {
+  /* app-button-cta {
     align-self: flex-end;
-  }
+  } */
 
 }

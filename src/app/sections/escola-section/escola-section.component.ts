@@ -20,6 +20,8 @@ export class EscolaSectionComponent implements OnInit {
     { path: 'assets/escola-bem-da-terra-11.jpg' },
     { path: 'assets/escola-bem-da-terra-12.jpg' },
     { path: 'assets/escola-bem-da-terra-13.jpg' },
+    { path: 'assets/escola-bem-da-terra-14.jpg' },
+    { path: 'assets/escola-bem-da-terra-15.jpg' },
   ];
 
   constructor() {}

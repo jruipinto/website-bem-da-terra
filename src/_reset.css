@@ -27,7 +27,7 @@ ol,
 fieldset,
 legend {
   background-color: transparent;
-  border: var(--global-border);  
+  border: var(--global-border);
   box-sizing: border-box;
   color: var(--global-font-color);
   font-family: var(--font-family-sans-serif);
@@ -64,4 +64,7 @@ input,
 select,
 textarea {
   margin-bottom: calc(var(--global-paragraph-spacing)*0.7);
+}
+li {
+  margin-left: 1em;
 }

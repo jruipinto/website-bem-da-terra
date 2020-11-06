@@ -57,6 +57,9 @@ p.description {
   border-left: 1px solid var(--global-font-color);
   margin-bottom: 1em;
 }
+p {
+  text-align: justify;
+}
 img {
   width: 100%;
   max-height: 360px;

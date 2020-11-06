@@ -3,6 +3,12 @@
   border: 0 solid var(--pallete-white);
   box-shadow: 4px 15px 18px rgba(0, 0, 0, 0.25);
   height: 3rem;
+  transition: 0.3s;
+}
+:host:hover {
+  filter: brightness(1.1);
+  transform: translateY(-4px);
+  transition: 0.3s;
 }
 .btn {
   display: block;
