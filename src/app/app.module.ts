@@ -27,6 +27,7 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 import { AppRoutingModule } from './app-routing.module';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { AddressIconComponent } from './components/address-icon/address-icon.component';
+import { AgendaSectionComponent } from './sections/agenda-section/agenda-section.component';
 
 @NgModule({
   imports: [
@@ -58,6 +59,7 @@ import { AddressIconComponent } from './components/address-icon/address-icon.com
     CarouselComponent,
     HomePageComponent,
     AddressIconComponent,
+    AgendaSectionComponent,
   ],
   bootstrap: [AppComponent],
   providers: [NavbarService],

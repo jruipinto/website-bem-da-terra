@@ -1,5 +1,5 @@
-.block a {
-  bottom: .5em;
-  padding-left: .5em;
-  position: relative;
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
 }

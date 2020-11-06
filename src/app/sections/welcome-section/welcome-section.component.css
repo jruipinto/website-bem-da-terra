@@ -28,8 +28,8 @@ app-button-cta {
   #welcome_paragraph{
     align-self: flex-end;
   }
-  app-button-cta {
+  /* app-button-cta {
     align-self: flex-end;
-  }
+  } */
 
 }
