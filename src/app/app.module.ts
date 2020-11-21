@@ -28,6 +28,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { AddressIconComponent } from './components/address-icon/address-icon.component';
 import { AgendaSectionComponent } from './sections/agenda-section/agenda-section.component';
+import { YoutubeIconComponent } from './components/youtube-icon/youtube-icon.component';
 
 @NgModule({
   imports: [
@@ -60,6 +61,7 @@ import { AgendaSectionComponent } from './sections/agenda-section/agenda-section
     HomePageComponent,
     AddressIconComponent,
     AgendaSectionComponent,
+    YoutubeIconComponent,
   ],
   bootstrap: [AppComponent],
   providers: [NavbarService],
