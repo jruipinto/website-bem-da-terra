@@ -14,4 +14,4 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
-          build-args: --base-href /website-bem-da-terra/
+          build-args: --base-href /
