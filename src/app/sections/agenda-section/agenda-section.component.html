@@ -1,30 +1,11 @@
 <section id="agenda">
   <div class="flex-container">
     <header>Próximos Eventos</header>
-    <div class="col-md-6 grow">
-      <a href="https://www.facebook.com/events/378317396533144/">
-        <img src="assets/agenda-1.jpg" alt="cartaz para evento 1" />
-      </a>
-    </div>
-    <div class="col-md-6 grow">
-      <a href="https://www.facebook.com/events/1306747512996544/">
-        <img src="assets/agenda-2.png" alt="cartaz para evento 2" />
-      </a>
-    </div>
-    <div class="col-md-6 grow">
-      <a href="https://www.facebook.com/events/354784119046266/">
-        <img src="assets/agenda-3.jpg" alt="cartaz para evento 3" />
-      </a>
-    </div>
-    <div class="col-md-6 grow">
-      <a href="https://www.facebook.com/events/287568325661644/">
-        <img src="assets/agenda-4.jpg" alt="cartaz para evento 4" />
-      </a>
-    </div>
-    <div class="col-md-6 grow">
-      <a href="https://www.facebook.com/events/2712671838972902/">
-        <img src="assets/agenda-5.jpg" alt="cartaz para evento 5" />
-      </a>
-    </div>
+    <app-event-card
+      class="col-md-6"
+      *ngFor="let evento of eventos"
+      [evento]="evento"
+    >
+    </app-event-card>
   </div>
 </section>
