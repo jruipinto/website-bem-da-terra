@@ -29,6 +29,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { AddressIconComponent } from './components/address-icon/address-icon.component';
 import { AgendaSectionComponent } from './sections/agenda-section/agenda-section.component';
 import { YoutubeIconComponent } from './components/youtube-icon/youtube-icon.component';
+import { EventCardComponent } from './components/event-card/event-card.component';
 
 @NgModule({
   imports: [
@@ -62,6 +63,7 @@ import { YoutubeIconComponent } from './components/youtube-icon/youtube-icon.com
     AddressIconComponent,
     AgendaSectionComponent,
     YoutubeIconComponent,
+    EventCardComponent,
   ],
   bootstrap: [AppComponent],
   providers: [NavbarService],
