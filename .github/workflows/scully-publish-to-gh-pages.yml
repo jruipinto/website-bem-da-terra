@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: jruipinto/ImageMagick-action@v0.2-alpha
+      - uses: jruipinto/ImageMagick-action@v1
         with:
           # ImageMagick command to be executed
           command: mogrify -path src/assets/ -auto-orient -resize x500 src/assets/*.jpg
