@@ -13,7 +13,7 @@ jobs:
       - uses: jruipinto/ImageMagick-action@v0.2-alpha
         with:
           # ImageMagick command to be executed
-          command: mogrify -path src/assets/ -auto-orient -resize x500 src/assets/*.*
+          command: mogrify -path src/assets/ -auto-orient -resize x500 src/assets/*.jpg
       - uses: cmgriffing/scully-gh-pages-action@v9
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
