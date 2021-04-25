@@ -1,5 +1,8 @@
-<div class="grow">
-  <a [href]="evento?.href">
-    <img [src]="evento?.imgSrc" [alt]="evento?.imgAlt" />
-  </a>
+<div class="flex-container">
+  <img [src]="evento?.imgSrc" [alt]="evento?.imgAlt" />
+</div>
+<markdown ngPreserveWhitespaces [data]="evento?.description">
+</markdown>
+<div class="flex-container" *ngIf="evento?.href">
+  <app-button-cta [href]="evento?.href">Inscrever-me</app-button-cta>
 </div>

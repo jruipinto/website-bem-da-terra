@@ -1,5 +1,6 @@
 export interface Evento {
-  href: string;
+  description: string;
   imgSrc: string;
   imgAlt: string;
+  href: string;
 }

@@ -35,7 +35,8 @@ main > *:nth-child(odd) section {
 
 header,
 h1,
-h2 {
+h2,
+h3 {
   display: block;
   font-family: var(--font-family-serif);
   font-size: 26px;
@@ -46,6 +47,11 @@ h2 {
 
 h2 {
   font-size: 20px;
+  font-weight: 400;
+}
+
+h3  {
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -60,11 +66,18 @@ p.description {
 p {
   text-align: justify;
 }
+app-event-card p {
+  text-align: left;
+}
 img {
   width: 100%;
   max-height: 360px;
   /* object-fit: cover; */
   object-fit: scale-down;
+}
+img[alt] {
+  font-style: italic;
+  color: var(--secondary);
 }
 .justify-left {
   justify-content: left;
