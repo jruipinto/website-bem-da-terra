@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
+import { MarkdownModule } from 'ngx-markdown';
 
 import { AppComponent } from './app.component';
 import { LogoComponent } from './components/logo/logo.component';
@@ -38,6 +39,7 @@ import { EventCardComponent } from './components/event-card/event-card.component
     IvyCarouselModule,
     ScullyLibModule,
     AppRoutingModule,
+    MarkdownModule.forRoot(),
   ],
   declarations: [
     AppComponent,
